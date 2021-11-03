@@ -1,0 +1,163 @@
+.nav-sub {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.sidenav {
+    left: inherit;
+    right: 0;
+}
+
+.main {
+    margin-left: inherit;
+    margin-right: 350px;
+}
+
+.home-section {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.manu-logo {
+    left: inherit;
+    right: 30px;
+}
+
+.menu-icons {
+    left: inherit;
+    right: 30px;
+}
+
+.lan-btn {
+    right: inherit;
+    left: -25px;
+}
+
+.copyright-icons {
+    text-align: left;
+}
+
+.lan-btn.mobile-lan {
+    text-align: right;
+}
+
+.lan-btn.mobile-lan i {
+    float: left;
+}
+
+.sidenav_2 {
+    margin-right: 0 !important;
+}
+
+.view-section .view1 {
+    width: 47%;
+}
+
+.view-section .view2 {
+    width: 53%;
+}
+.mobile-cross{
+    right: inherit;
+    left: -30px;
+    
+}
+.home-head h6 i{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.skills-box h6 img{
+    left: inherit;
+    right: -50px;
+}
+.skills-box h6{
+    margin-left: inherit;
+    margin-right: 50px;
+}
+.professional-box span::before{
+    left: inherit;
+    right: -30px;
+}
+.professional-box ul{
+    padding-left: inherit;
+    padding-right: 17px;
+}
+.nav-sub{
+    margin-left: 0;
+    border-left: none;
+    padding-left: 0;
+    margin-right: 50px;
+    border-right: 1px solid rgba(255,255,255,0.15);
+    margin-left: 50px;
+    padding-right: 30px;
+}
+.professional-main{
+    padding-left: 0;
+    padding-right: 25px;
+    border-left: none;
+    border-right: 1px solid rgba(175, 175, 175, 0.2);
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .main {
+        margin-right: 290px;
+    }
+    .nav-sub{
+        margin-right: 0;
+        padding-right: 20px;
+    }
+    .manu-logo{
+        right: 15px;
+    }
+    .menu-icons{
+        right: 15px;
+    }
+    .sidenav{
+        width: 290px;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    .main {
+        margin-right: 0;
+    }
+
+    .sidenav {
+        margin-left: inherit;
+        margin-right: -350px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .view-section .view1 {
+        width: 46%;
+    }
+
+    .view-section .view2 {
+        width: 54%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .home-section {
+        padding-left: 30px;
+    }
+        .view-section .view1 {
+        width: 45%;
+    }
+
+    .view-section .view2 {
+        width: 55%;
+    }
+}
+@media only screen and (max-width:660px) {
+        .view-section .view1 {
+        width: 45%;
+    }
+
+    .view-section .view2 {
+        width: 55%;
+    }
+}
